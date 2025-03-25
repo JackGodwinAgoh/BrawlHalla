@@ -245,10 +245,11 @@ header {
 
 /* Semi-transparent content container */
 .Origin-container {
+
   background-color: rgba(205, 216, 217, 0.6);
   max-width: 800px;
   width: 100%;
-  padding: 300px;
+  padding: 400px;
   text-align: center;
   border-radius: 15px;
 }
@@ -358,7 +359,7 @@ header {
 
 .Origin-container {
   background-color: rgba(205, 216, 217, 0.6);
-  max-width: 800px;
+  max-width: 10000px;
   width: 100%;
   padding: 300px;
   text-align: center;
