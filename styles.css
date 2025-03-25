@@ -191,7 +191,19 @@ header {
   background: transparent;
 }
 
+/* Origin Section */
+.Origin {
+  background-color: #1a1a2e;
+  color: #0cdce0;
+  padding: 80px 20px;
+}
 
+.Origin .Origin-content {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
 
 .Origin .Origin-image {
   width: 400px;
@@ -231,6 +243,15 @@ header {
   min-height: 100vh;
 }
 
+/* Semi-transparent content container */
+.Origin-container {
+  background-color: rgba(205, 216, 217, 0.6);
+  max-width: 800px;
+  width: 100%;
+  padding: 300px;
+  text-align: center;
+  border-radius: 15px;
+}
 
 /* Apply specific styles within Origin-page */
 .Origin-page .Origin {
@@ -335,15 +356,13 @@ header {
 }
 
 
-.Meet-The-Legends{
+.Origin-container {
   background-color: rgba(205, 216, 217, 0.6);
-  max-width: 1000px;
-  width: 90%;
-  padding: 40px;
+  max-width: 800px;
+  width: 100%;
+  padding: 300px;
   text-align: center;
   border-radius: 15px;
-  box-sizing: border-box;
-  margin-top: 100px;
 }
 
 
@@ -627,7 +646,7 @@ input[type="submit"]:hover {
 }
 
 
-body {
+.Meet-The-Legend-body{
   display: flex;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
@@ -644,7 +663,7 @@ body {
   text-align: center;
   border-radius: 15px;
   box-sizing: border-box;
-  margin-top: 50%;
+  margin-top: 120%;
   
 }
 
@@ -684,4 +703,6 @@ body {
   padding: 10px;
   font-size: 14px;
 }
+
+
 
