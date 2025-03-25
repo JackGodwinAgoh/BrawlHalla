@@ -191,19 +191,7 @@ header {
   background: transparent;
 }
 
-/* Origin Section */
-.Origin {
-  background-color: #1a1a2e;
-  color: #0cdce0;
-  padding: 80px 20px;
-}
 
-.Origin .Origin-content {
-  display: flex;
-  gap: 50px;
-  align-items: center;
-  justify-content: space-between;
-}
 
 .Origin .Origin-image {
   width: 400px;
@@ -243,15 +231,6 @@ header {
   min-height: 100vh;
 }
 
-/* Semi-transparent content container */
-.Origin-container {
-  background-color: rgba(205, 216, 217, 0.6);
-  max-width: 800px;
-  width: 100%;
-  padding: 300px;
-  text-align: center;
-  border-radius: 15px;
-}
 
 /* Apply specific styles within Origin-page */
 .Origin-page .Origin {
@@ -354,6 +333,19 @@ header {
   box-sizing: border-box;
   display: block;
 }
+
+
+.Meet-The-Legends{
+  background-color: rgba(205, 216, 217, 0.6);
+  max-width: 1000px;
+  width: 90%;
+  padding: 40px;
+  text-align: center;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 100px;
+}
+
 
 .contact-page {
   background-image: url('https://i.redd.it/dr7y4i0sjin81.png');
@@ -635,4 +627,61 @@ input[type="submit"]:hover {
 }
 
 
+body {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+  margin: 0; /* Remove default margin */
+  background-color: #0e8ec5; /* Optional background */
+}
+
+.Meet-The-Legends {
+  background-color: rgba(205, 216, 217, 0.6);
+  max-width: 1000px;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 50%;
+  
+}
+
+.Legend-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers gallery items */
+  gap: 10px; /* Adds spacing between images */
+}
+
+/* Individual gallery item */
+.Legend {
+  border: 1px solid #ccc;
+  width: 200px;
+  text-align: center;
+  background: linear-gradient(#f0ac00,#0e8ec5);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.Legend :hover {
+  border: 1px solid #777;
+  transform: scale(1.05); /* Subtle zoom effect */
+}
+
+/* Image styling */
+.Legend img {
+  width: 80%;
+  height: auto;
+  display: block;
+}
+
+/* Description below images */
+.desc {
+  padding: 10px;
+  font-size: 14px;
+}
 
