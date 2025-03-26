@@ -16,6 +16,15 @@ productContainers.forEach((item, i) => {
     })
 })
 
+
+
+
+
+
+
+
+
+
 filterSelection("all") // Execute the function and show all columns
 function filterSelection(c) {
   var x, i;
